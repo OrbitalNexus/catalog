@@ -1,0 +1,486 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    font-size: 24px;
+}
+body {
+    padding: 0;
+    margin: 20px 20px 20px 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#userName {
+    width: 450px;
+    height: 45px;
+    font-size: 24px;
+}
+
+#passWord {
+    width: 450px;
+    height: 45px;
+    font-size: 24px;
+}
+
+#password1 {
+    width: 450px;
+    height: 45px;
+    font-size: 24px;
+}
+
+#password2 {
+    width: 450px;
+    height: 45px;
+    font-size: 24px;
+}
+
+.submit {
+    width: 458px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+}
+
+.submit1 {
+    width: 458px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+}
+
+.submit1:disabled {
+    background-color: grey;
+    cursor: default;
+}
+
+.submit:hover {
+    background-color: blue;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    flex-direction: column;
+}
+.reset {
+    width: 458px;
+    height: 45px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+.welcome {
+    text-align: center;
+    font-size: 36px;
+}
+.welcome-message {
+    text-align: center;
+}
+
+.create-account {
+    font-size: 36px;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.createBut{
+    border: 2px solid black;
+    padding: 3px 3px 3px 3px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-top: 45px;
+}
+.topnav {
+    font-size: 36px;
+    background-color: black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    padding: 8px 0 8px 0;
+}
+.active {
+    padding-right: 5px;
+    border-right: 1px solid white;
+    padding: 0 15px 0 0;
+}
+
+.prod {
+    padding-right: 5px;
+    border-right: 1px solid white;
+    padding: 0 15px 0 15px;
+}
+
+.CA {
+    padding: 0 15px 0 15px;
+}
+
+.log-out {
+    padding: 0 15px 0 15px;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.master-container {
+    height: 100vh;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    font-size: 18px;
+
+
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+.card-container2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 300px;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px;
+}
+.cart-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cart-form input {
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-image {
+    width: 185px;
+    height: 185px;
+    justify-content: center;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.card-image-holder {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    width: 80%;
+}
+.card-name {
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card-description {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-price {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.prod-details {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    border-radius: 5%;
+    padding-top: 10px;
+}
+.details {
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #00A0C6;
+}
+.fine-goods {
+    text-align: center;
+}
+
+.add-to-cart {
+    width: 200px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+}
+
+#qty {
+    padding-right: 20px;
+}
+.access {
+    text-align: center;
+    color: crimson;
+}
+
+.logged {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-success {
+    text-align: center;
+}
+
+.gained-access {
+    text-align: center;
+    font-size: 24px;
+}
+
+.cart {
+    padding-right: 5px;
+    border-right: 1px solid white;
+    padding: 0 15px 0 15px;
+}
+
+.store-front {
+    width: 100%;
+}
+
+.already-user {
+    text-align: center;
+    color: crimson;
+}
+
+.passError {
+    text-align: center;
+    color: crimson;
+}
+
+#passOne {
+    text-align: center;
+}
+
+#passTwo {
+    text-align: center;
+}
+
+#passThree {
+    text-align: center;
+}
+
+#passFour {
+    text-align: center;
+}
+
+#passFive {
+    text-align: center;
+}
+
+#passSix {
+    text-align: center;
+}
+
+.userEmpty {
+    text-align: center;
+    color: crimson;
+}
+
+.items {
+    text-align: center;
+    color: green;
+}
+
+.conShop {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.please-login {
+    text-align: center;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+.cart-table {
+    border: 1px solid black;
+    width: 650px;
+}
+
+.row-head {
+    border: 1px solid black;
+}
+.head-name {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.head-price {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.head-qty {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.head-total {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.data-name {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.data-price {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.data-qty {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.data-total {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: end;
+}
+
+.grand-total {
+    border: 1px solid black;
+}
+
+.g-total {
+    border: 1px solid black;
+}
+
+.qty-input {
+    font-size: 20px;
+}
+
+.login-first {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-cart {
+height: 50px;
+background-color: yellow;
+font-size: 20px;
+margin-right: 5px;
+box-shadow: 7px 7px 7px gray;
+cursor: pointer;
+}
+
+.place {
+height: 50px;
+background-color: lightgreen;
+font-size: 20px;
+margin-left: 5px;
+cursor: pointer;
+box-shadow: 7px 7px 7px grey;
+}
+
+.order-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.list-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.already-cart {
+    text-align: center;
+}
+
+.thanks {
+    text-align: center;
+    color: #0060B6;
+}
+
+.last-item {
+    text-align: center;
+    padding-top: 25px;
+}
